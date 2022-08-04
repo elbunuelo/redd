@@ -381,6 +381,10 @@ module Redd
       #   @return [Boolean] whether the post is probably a video
       property :video, from: :is_video
 
+      # @!attribute [r] is_robot_indexable?
+      #   @return [Boolean] whether the post is indexable
+      property :is_robot_indexable?, from: :is_robot_indexable
+
       private
 
       def lazer_reload
