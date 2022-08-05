@@ -389,6 +389,10 @@ module Redd
       #   @return [Boolean] Reason for removal
       property :removal_reason
 
+      # @!attribute [r] removed_by_category
+      #   @return [Boolean] Category removal
+      property :removed_by_category
+
       private
 
       def lazer_reload
