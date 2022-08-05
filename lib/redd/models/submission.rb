@@ -385,6 +385,10 @@ module Redd
       #   @return [Boolean] whether the post is indexable
       property :is_robot_indexable?, from: :is_robot_indexable
 
+      # @!attribute [r] removal_reason
+      #   @return [Boolean] Reason for removal
+      property :removal_reason
+
       private
 
       def lazer_reload
